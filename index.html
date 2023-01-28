@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CodeClub Convert Money</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>CodeClub Convert Money</h1>
+        </header>
+
+        <main>
+                <label>
+                    Converter <b> de </b>
+                    <br>
+                    <select>
+                        
+                        <option>
+                            R$ Real brasileiro 
+                        </option>
+                    </select>
+                </label>
+                
+    
+                <label>
+                    Converter <b> para </b>
+                    <br>
+                    <select id="currency-select">                    
+                        <option>
+                            US$ Dólar americano 
+                        </option>
+                        <option> 
+                            € Euro
+                        </option>
+
+                        <option> 
+                            ₿ Bitcoin
+                        </option>
+                      
+                        <option> 
+                            ⬨ Ethereum
+                        </option>
+
+                        <option> 
+                            £ Libra
+                        </option>
+
+                    </select>
+                </label>
+               
+    
+                <label>
+                    <span>Valor</span> 
+                    <br>
+                    <input id="input-real" placeholder="R$ 0,00">
+                </label>    
+
+            <button  id="convert-button" type="button"> Converter </button>
+
+            <section>
+                <div class="bandeira">
+                    <img src="./assests/brasil 2.png">
+                    <p class="moeda"> Real </p>
+                    <p class="value" id="real-value"> R$ 0,00 </p>
+                </div>
+
+                <img src="./assests/Vector (1).png"  >
+           
+
+
+                <div class="bandeira">
+                    <img src="./assests/estados-unidos (1) 1.png" id="currency-img" alt="bandeira">
+                    <p class="moeda" id="moeda-name"> Dólar Americano</p>
+                    <p class="value" id="dolar-value"> U$ 0,00 </p>
+                </div>
+
+              
+
+
+            </section>
+
+
+
+        </main>
+
+    </div>
+</body>
+<script src="./script.js"> </script>
+</html>

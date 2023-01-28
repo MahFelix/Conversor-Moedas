@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: rgb(254,193,8);
+    background: radial-gradient(circle, rgba(254,193,8,1) 0%, rgba(251,251,251,0.8295693277310925) 100%);
+}
+
+.container{
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+h1 {
+    width: 385px;
+    height: 66px;
+    color: white;
+    background: #1B83E2;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px;
+    font-size: 24x;    
+    font-weight: 400;
+    
+
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border: none;
+    background: #1B83E2;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+button:hover{
+    background-color: #145ca0;
+}
+
+.container {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+
+
+label {
+    
+    color: #777777;
+    margin-bottom: 12px;
+}
+
+
+
+main {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+span {
+   font-weight: 700;
+}
+
+input,
+select {
+    padding: 12px;
+    width: 345px;
+    font-weight: 700;
+    border: 1px solid #b9b9b9;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    appearance: none;
+    box-shadow: 2px 2px 3px rgb(12, 12, 12);
+
+}
+
+
+input{
+    font-weight: 700;
+}
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #1B83E2;
+    margin-top: 36px;
+    background-color: white;
+}
+section div{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.bandeira{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.moeda{
+    font-size: 14px;
+    color: #777777;
+}
+.value{
+    font-size: 20px;
+    color: #1B83E2;
+    font-weight: 700;
+}
+
+header h1{
+    border-radius: 5px;
+    background-color: green;
+}
+
+#convert-button {
+    background-color: green;
+}
