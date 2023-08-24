@@ -166,5 +166,58 @@ header h1{
 
 .moeda-icon {
     z-index: -1;
-    width: 100px;
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores, como tablets */
+    body {
+        background-position: center;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input,
+    select {
+        width: 100%;
+    }
+
+    /* Mais estilos conforme necessário */
+}
+
+@media screen and (max-width: 480px) {
+    /* Estilos para dispositivos móveis */
+    body {
+        background-position: center;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input,
+    select {
+        width: 100%;
+    }
+
+    /* Mais estilos conforme necessário */
 }
